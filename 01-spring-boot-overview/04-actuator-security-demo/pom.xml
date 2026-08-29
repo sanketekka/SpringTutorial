@@ -41,10 +41,22 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!--This enables devtools which allows modifcation of files during runtime-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
-			<optional>true</optional>
+		</dependency>
+
+		<!--This enables actuators. Can be accessed by localhot/8080/actuator. Check log for exact endpoint-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
+		<!--Add support for spring security-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 	</dependencies>
 
