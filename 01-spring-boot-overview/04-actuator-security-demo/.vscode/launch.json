@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Spring Boot: Run App",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "com.javaProj.springboot.demo.mySpringApp.MySpringAppApplication",
+      "projectName": "mySpringApp",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
