@@ -10,4 +10,9 @@ public class Fun2ndRestController {
         return "Hello from 2nd REST controller";
     }
 
+     @GetMapping("/workout")
+    public String workout(){
+        return "Hit your daily step count";
+    }
+
 }
