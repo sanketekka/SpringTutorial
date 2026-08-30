@@ -5,11 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /* Since the dependencies are in a different package out of scope
    we need to explicitly tell Spring to check for them */
-@SpringBootApplication(
-	scanBasePackages = {"com.javaProj.springCodeDemo",
-					   "com.javaProj.util"
-	}
-)
+@SpringBootApplication
 public class SpringCodeDemoApplication {
 
 	/* Bootstrap the Spring Boot app. Create app context, register all beans
